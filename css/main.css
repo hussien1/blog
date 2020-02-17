@@ -1,0 +1,57 @@
+/* general style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+
+:focus{
+    outline: none;
+}
+
+/* ############## */
+
+/* start the main styles */
+.main-container{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+/* the navbar style */
+nav{
+    background-color: #000;
+    color: #fff;
+}
+nav .top-social-links{
+    width: 50%;
+}
+
+nav .search{
+    width: 50%;
+}
+nav .search.flex-container{
+    justify-content: flex-end;
+}
+nav .top-social-links div a img,nav .search div a img{
+    height: 15px;
+}
+
+nav .top-social-links div,nav .search div{
+    padding: 8px 16px;
+    vertical-align: middle;
+}
+
+nav .top-social-links.flex-container,nav .search.flex-container{
+    align-items: center;
+}
